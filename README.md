@@ -28,7 +28,25 @@ brew install jq curl
 Install other tools from their respective repositories.
 
 ## Usage
+Run the script with a domain name as an argument:
 ```sh
-python subenum.py example.com
+python3 subenum.py domain.com
 ```
-Replace `example.com` with your target domain.
+
+### Example Output
+```sh
+[+] Enumerating subdomains...
+[*] Running crt.sh...
+[*] Running subfinder...
+[*] Running findomain...
+[*] Running assetfinder...
+[*] Combining results...
+[*] Running httpx...
+[+] Subdomain enumeration completed. Results saved in:
+    - domain.com/crtsh.txt
+    - domain.com/subfinder.txt
+    - domain.com/findomain.txt
+    - domain.com/assetfinder.txt
+    - domain.com/final.txt
+    - domain.com/clean_sub.txt (Live subdomains)
+```
