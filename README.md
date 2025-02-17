@@ -17,16 +17,6 @@ Ensure you have the following tools installed:
 - `assetfinder`
 - `httpx`
 
-## Installation
-```sh
-sudo apt install jq curl
-```
-Or install via Homebrew (for macOS):
-```sh
-brew install jq curl
-```
-Install other tools from their respective repositories.
-
 ## Usage
 Run the script with a domain name as an argument:
 ```sh
